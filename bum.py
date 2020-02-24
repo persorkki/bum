@@ -76,6 +76,8 @@ if __name__ == "__main__":
 	
 	if args.search == None:
 		sterm = input('Give a search term (Ctrl+C to cancel):')
+		#TODO: make this check for a valid search term
+		#TODO: show the search results (at least the amount of hits) and add the abilitiy to cancel search
 		run(sterm)
 	else:
 		run(args.search)
