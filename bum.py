@@ -66,7 +66,7 @@ def download(source):
 				f.write(r.content)
 
 if __name__ == "__main__":
-	#for PyInstaller because of Processing... I think
+	#for PyInstaller
 	multiprocessing.freeze_support()
 
 	#argparse is not very useful here, could probably just use sys.argv to save lines
